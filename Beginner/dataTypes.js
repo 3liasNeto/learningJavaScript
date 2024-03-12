@@ -18,7 +18,15 @@
  * Object is like an function, and map of instruction to know what do with the data or instructions
  * that he received ( Have other things to explain like the relation of Object, Function and
  * Method but i think iam not the person to lecture about this theme maybe in the future ).
+ * ? to know what is the type of data you are working its possible to discover using, 
+ * ? typeof, like this:
  */
+
+// ? TypeOf
+let numberValue = 1;
+let stringValue = '1';
+console.log(typeof numberValue); // Number
+console.log(typeof stringValue); // String
 
 // * Boolean
 let isThisAnPokemon = true;
@@ -41,6 +49,8 @@ let pokedexNumber = 94; // The best Pokemon of all time
 
 // * String
 pokemonName = 'Gengar'; // here pokemonName change his value
+
+// String Interpolation and Concatenation
 
 // * Symbol - string | number | undefined
 const bannedPokemon = Symbol(384); 
