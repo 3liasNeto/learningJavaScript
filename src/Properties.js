@@ -6,7 +6,6 @@
  * ? a string. So among these data types is
  * ? possible to have some properties.
  * 
- * * Methods
  */
 
 /**
