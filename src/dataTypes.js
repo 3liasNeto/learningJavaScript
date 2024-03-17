@@ -50,7 +50,25 @@ let pokedexNumber = 94; // The best Pokemon of all time
 // * String
 pokemonName = 'Gengar'; // here pokemonName change his value
 
-// String Interpolation and Concatenation
+//? String Interpolation and Concatenation
+/**
+ * * String Concatenation
+ * ? Using the same operator for adding in a arithmetic calc, its possible
+ * ? to add some values to an message or an string concatenation: 
+ * @example -> 'The Pokemon Name of' + pokedexNumber + 'number is' + pokemonName + '.'
+ * */ 
+ // console.log('The Pokemon Name of' + pokedexNumber + 'number is' + pokemonName + '.'); // log to see
+
+/**
+ * * String Interpolation
+ * ? Is other way to insert some values to create an message, but its different
+ * ? of string concatenation, in interpolation is not used the operator plus to separate
+ * ? values and strings, here we use:
+ * * -> `[phrase]` : ` ` to create the area to insert the interpolation
+ * * -> ${item} : to insert the value that you want
+ * @example `The Pokemon Name of ${pokedexNumber} number is ${pokemonName}.`
+ * */ 
+// console.log(`The Pokemon Name of ${pokedexNumber} number is ${pokemonName}.`); // log to see
 
 // * Symbol - string | number | undefined
 const bannedPokemon = Symbol(384); 
